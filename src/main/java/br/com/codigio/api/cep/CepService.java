@@ -9,6 +9,17 @@ public class CepService {
 	private CepRepository repository;
 	
 	public Cep findByCep(String cep) {		
-		return repository.findByCep(cep);
+		Cep entity = repository.findByCep(cep);
+		
+		// Verifica se há o '- até' no logradouro, nesse caso deve desconsiderar o '- até' do logradouro.
+		if(entity != null && entity.getLogradouro().contains("- até")) {
+			String[] parts = entity.getLogradouro().split("-");
+			
+			if(parts.length > 0) {
+				entity.setLogradouro(parts[0].trim());
+			}
+		}
+		
+		return entity;
 	}
 }
