@@ -1,4 +1,4 @@
-package com.trinitysolucoes.fastdelivery.geocode.handler;
+package br.com.codigio.api.handler;
 
 import java.io.IOException;
 

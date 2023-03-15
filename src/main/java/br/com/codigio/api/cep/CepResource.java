@@ -1,4 +1,4 @@
-package com.trinitysolucoes.fastdelivery.geocode.cep;
+package br.com.codigio.api.cep;
 
 import lombok.Getter;
 import lombok.Setter;

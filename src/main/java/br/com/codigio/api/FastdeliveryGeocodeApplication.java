@@ -1,4 +1,4 @@
-package com.trinitysolucoes.fastdelivery.geocode;
+package br.com.codigio.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

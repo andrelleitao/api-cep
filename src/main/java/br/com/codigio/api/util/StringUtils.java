@@ -1,11 +1,8 @@
-package com.trinitysolucoes.fastdelivery.geocode.util;
+package br.com.codigio.api.util;
 
 public class StringUtils {
 	/**
 	 * Remove todos caracteres não numéricos.
-	 * 
-	 * @param str String contendo números.
-	 * @return
 	 */
 	public static String removeNonNumericCharacter(String str) {
 		if (str != null) {

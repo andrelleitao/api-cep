@@ -1,4 +1,4 @@
-package com.trinitysolucoes.fastdelivery.geocode.cep;
+package br.com.codigio.api.cep;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
