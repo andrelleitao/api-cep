@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>br.com.codigio.api</groupId>
 	<artifactId>cep</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>cep</name>
 	<description>Serviço de consulta de CEP.</description>
 	<properties>
